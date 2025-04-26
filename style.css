@@ -1,3 +1,56 @@
 h1 {
     text-align: center;
+
+}
+body{
+    background-color: wheat;
+    font-family:monospace, Arial, Helvetica, sans-serif;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.erase{
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.size{
+    margin-bottom:auto;
+    margin-top: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    margin-top: 20px;
+    border: solid black 5px;
+    background-color: white;
+}
+.square{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: solid gray 1px;
+    box-sizing: border-box;
+    transition: background-color 500ms ease, opacity 500ms ease;
+}
+
+button{
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: ;
+    padding: 10px 15px;
+    margin: auto;
+    width: 85px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
